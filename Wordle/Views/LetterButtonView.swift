@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LetterButtonBiew: View {
+struct LetterButtonView: View {
     @EnvironmentObject var dm: WordleDataModel
     var letter: String
     
@@ -27,7 +27,7 @@ struct LetterButtonBiew: View {
 
 struct LetterButtonBiew_Previews: PreviewProvider {
     static var previews: some View {
-        LetterButtonBiew(letter: "L")
+        LetterButtonView(letter: "L")
             .environmentObject(WordleDataModel())
     }
 }
