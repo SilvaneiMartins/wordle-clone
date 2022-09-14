@@ -17,6 +17,7 @@
 		31873BF528D14CC600F7FAE6 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31873BF428D14CC600F7FAE6 /* UIWindow+Extension.swift */; };
 		31873BF728D1563800F7FAE6 /* ColorSchemaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31873BF628D1563800F7FAE6 /* ColorSchemaManager.swift */; };
 		31873BF928D15A6F00F7FAE6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31873BF828D15A6F00F7FAE6 /* SettingsView.swift */; };
+		31873BFB28D1684800F7FAE6 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31873BFA28D1684800F7FAE6 /* HelpView.swift */; };
 		31A3872E28CEDB490017F3A9 /* WordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3872D28CEDB490017F3A9 /* WordleApp.swift */; };
 		31A3873028CEDB490017F3A9 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3872F28CEDB490017F3A9 /* GameView.swift */; };
 		31A3873228CEDB4D0017F3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A3873128CEDB4D0017F3A9 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		31873BF428D14CC600F7FAE6 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 		31873BF628D1563800F7FAE6 /* ColorSchemaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemaManager.swift; sourceTree = "<group>"; };
 		31873BF828D15A6F00F7FAE6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		31873BFA28D1684800F7FAE6 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		31A3872A28CEDB490017F3A9 /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A3872D28CEDB490017F3A9 /* WordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleApp.swift; sourceTree = "<group>"; };
 		31A3872F28CEDB490017F3A9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				31873BEC28D10F4300F7FAE6 /* ToastView.swift */,
 				31873BF228D11D5800F7FAE6 /* StatsView.swift */,
 				31873BF828D15A6F00F7FAE6 /* SettingsView.swift */,
+				31873BFA28D1684800F7FAE6 /* HelpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				31A3873F28CEE1170017F3A9 /* Color+Extension.swift in Sources */,
 				31A3872E28CEDB490017F3A9 /* WordleApp.swift in Sources */,
 				31873BF528D14CC600F7FAE6 /* UIWindow+Extension.swift in Sources */,
+				31873BFB28D1684800F7FAE6 /* HelpView.swift in Sources */,
 				31A3874A28CEE7530017F3A9 /* Global.swift in Sources */,
 				31873BF328D11D5800F7FAE6 /* StatsView.swift in Sources */,
 				31873BF728D1563800F7FAE6 /* ColorSchemaManager.swift in Sources */,
@@ -371,8 +375,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Wordle/Preview Content\"";
+				DEVELOPMENT_TEAM = MRWW7972SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Silvanei Martins";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -387,9 +393,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = silvaneimartins.Wordle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -401,8 +410,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Wordle/Preview Content\"";
+				DEVELOPMENT_TEAM = MRWW7972SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Silvanei Martins";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,9 +428,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = silvaneimartins.Wordle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
