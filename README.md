@@ -38,7 +38,7 @@ $ git https://github.com/SilvaneiMartins/wordle-clone
 
 ## :memo: License
 
-Este projeto está sob a licença MIT. Caso gostaria de ler, por favor acessar a licença aqui neste link [LICENSE](https://github.com/SilvaneiMartins/wordle-clone/blob/master/LICENSE) para maiores informações.
+Este projeto está sob a licença MIT. Caso gostaria de ler, por favor acessar a licença aqui neste link [LICENSE](https://github.com/SilvaneiMartins/wordle-clone/LICENSE) para maiores informações.
 
 ---
 
