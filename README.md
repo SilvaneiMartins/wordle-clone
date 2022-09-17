@@ -6,7 +6,7 @@
 
 <h3 align="center">
 
-	🚧  APLICAÇÃO MOBILE PARA IOS WORDLE CLONE...  🚧
+	🚧  APLICAÇÃO MOBILE PARA IPHONE WORDLE CLONE...  🚧
 </h3>
 
 <h1 align="center">
